@@ -8,7 +8,6 @@ class OverviewCardsSmall extends StatelessWidget {
   Widget build(BuildContext context) {
     double _height = MediaQuery.of(context).size.height;
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20),
       height: 400,
       child: Column(
         children: [
